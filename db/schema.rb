@@ -16,6 +16,7 @@ ActiveRecord::Schema[7.1].define(version: 2024_04_24_220623) do
     t.string "omar"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.string "ahmed_khaled"
     t.string "hadeer"
   end
 
