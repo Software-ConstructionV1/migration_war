@@ -31,6 +31,7 @@ ActiveRecord::Schema[7.1].define(version: 2024_04_25_074624) do
     t.string "alaa_sherif"
     t.string "Esraa"
     t.string "Shimaa_Fathi"
+    t.string "mona_eid"
   end
 
 end
