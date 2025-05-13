@@ -44,6 +44,6 @@ ActiveRecord::Schema[7.1].define(version: 2025_05_11_135438) do
     t.string "SaRa"
     t.string "esraafoda"
     t.string "monica"
+    t.string "nourrr"
   end
-
 end
