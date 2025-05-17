@@ -49,13 +49,13 @@ ActiveRecord::Schema[7.1].define(version: 2025_05_17_170322) do
     t.string "ahmed_Ramadan"
     t.string "nada_emam"
     t.string "abdullah_maher"
-    t.string "ahmed_sayed"
+    t.string "ahmed_el_heart"
     t.string "esraa_nouran_edited"
     t.string "jana_hazem"
     t.string "arwa_mohammed"
-    t.string "rahma_roro_nouran"
+    t.string "nouran_el_heart"
     t.integer "a7med_zaki"
-    t.string "fares_edres"
+    t.string "fares_el_heart"
   end
 
   create_table "students", force: :cascade do |t|
