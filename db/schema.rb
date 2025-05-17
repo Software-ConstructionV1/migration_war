@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.1].define(version: 2025_05_17_163039) do
+ActiveRecord::Schema[7.1].define(version: 2025_05_17_164441) do
   create_table "posts", force: :cascade do |t|
     t.string "islam"
     t.string "omar"
@@ -50,10 +50,10 @@ ActiveRecord::Schema[7.1].define(version: 2025_05_17_163039) do
     t.string "nada_emam"
     t.string "abdullah_maher"
     t.string "ahmed_sayed"
-    t.string "esraa_khalifa"
+    t.string "esraa_nouran_edited"
     t.string "jana_hazem"
     t.string "arwa_mohammed"
-    t.string "nouran"
+    t.string "nouran_mohamed"
     t.integer "a7med_zaki"
     t.string "fares_edres"
   end
