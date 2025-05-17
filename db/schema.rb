@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.1].define(version: 2025_05_17_102439) do
+ActiveRecord::Schema[7.1].define(version: 2025_05_17_103603) do
   create_table "posts", force: :cascade do |t|
     t.string "islam"
     t.string "omar"
@@ -50,7 +50,7 @@ ActiveRecord::Schema[7.1].define(version: 2025_05_17_102439) do
     t.integer "age"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.string "grade"
+    t.string "level"
   end
 
 end
