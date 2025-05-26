@@ -57,12 +57,12 @@ ActiveRecord::Schema[7.1].define(version: 2025_05_26_164413) do
     t.integer "a7med_zaki"
     t.string "fares"
     t.string "mohammed_amr"
-    t.string "Arwa_Sayed"
+    t.string "arwa_ipmagic"
     t.string "nada_salah"
-    t.string "Darsh"
-    t.string "Abdo"
-    t.string "sub_Leader"
-    t.string "Grace"
+    t.string "Darsh_Aboteg"
+    t.string "Elking"
+    t.string "Wilidiah"
+    t.string "fix_your_mic_plz"
   end
 
   create_table "students", force: :cascade do |t|
