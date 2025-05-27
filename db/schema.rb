@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.1].define(version: 2025_05_27_044139) do
+ActiveRecord::Schema[7.1].define(version: 2025_05_27_053709) do
   create_table "posts", force: :cascade do |t|
     t.string "islam"
     t.string "omar"
@@ -20,7 +20,7 @@ ActiveRecord::Schema[7.1].define(version: 2025_05_27_044139) do
     t.string "hadeer"
     t.string "great_one"
     t.string "nouran"
-    t.string "omar_camus_4"
+    t.string "mostafa"
     t.string "nasser"
     t.string "loveYou"
     t.string "yousef"
@@ -56,19 +56,19 @@ ActiveRecord::Schema[7.1].define(version: 2025_05_27_044139) do
     t.string "rahma_roro_nouran"
     t.integer "a7med_zaki"
     t.string "fares"
-    t.string "omar_Basha_1"
-    t.string "omar_Elking_2"
-    t.string "omar_mahmoud_3"
-    t.string "Darsh_Aboteg"
-    t.string "Elking"
-    t.string "omar_56"
-    t.string "omar_mahmoud_7"
-    t.string "omar_mahmoud"
-    t.string "safah_al_java"
-    t.string "mariamSameh"
-    t.string "hamdysalah"
-    t.string "MahaGalal"
-    t.string "AhmedSalah"
+    t.string "mohammed_amr"
+    t.string "Arwa_Zoksh"
+    t.string "Nada_Zoksh"
+    t.string "Mostafa_Zoksh"
+    t.string "AbdAllah_Zoksh"
+    t.string "Yasmeen_Zoksh"
+    t.string "Ghada_Zoksh"
+    t.string "Omar_Zoksh"
+    t.string "Moataz_Zoksh"
+    t.string "Mariem_Zoksh"
+    t.string "Hamdy_Zoksh"
+    t.string "Maha_Zoksh"
+    t.string "Ahmed_Zoksh"
   end
 
   create_table "students", force: :cascade do |t|
