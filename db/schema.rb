@@ -10,8 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.1].define(version: 2025_05_31_093851) do
-
+ActiveRecord::Schema[7.1].define(version: 2025_05_31_115729) do
   create_table "posts", force: :cascade do |t|
     t.string "islam"
     t.string "omar"
@@ -59,25 +58,19 @@ ActiveRecord::Schema[7.1].define(version: 2025_05_31_093851) do
     t.string "fares"
     t.string "mohammed_amr"
     t.string "arwa_ipmagic"
-    t.string "nada_salah"
     t.string "Nada_Zoksh"
     t.string "Darsh_Aboteg"
     t.string "Elking"
     t.string "Wilidiah"
     t.string "fix_your_mic_plz"
-    t.string "omar_mahmoud"
-    t.string "safah_al_java"
-    t.string "mariamSameh"
-    t.string "hamdysalah"
-    t.string "MahaGalal"
-    t.string "AhmedSalah"
-    t.string "MostafaMohamed"
     t.string "Omar_Zoksh"
     t.string "Moataz_Zoksh"
     t.string "Mariem_Zoksh"
     t.string "Hamdy_Zoksh"
     t.string "Maha_Zoksh"
     t.string "Ahmed_Zoksh"
+    t.string "Gamgoum"
+    t.string "MostafaMohamed"
   end
 
   create_table "students", force: :cascade do |t|
@@ -88,6 +81,7 @@ ActiveRecord::Schema[7.1].define(version: 2025_05_31_093851) do
     t.string "level"
     t.string "rahma_edited"
     t.string "zezo"
+    t.string "Gamgoum"
   end
 
   create_table "users", force: :cascade do |t|
@@ -95,7 +89,7 @@ ActiveRecord::Schema[7.1].define(version: 2025_05_31_093851) do
     t.string "email"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.integer "age"
+    t.string "Gamgoum"
   end
 
 end
