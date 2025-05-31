@@ -94,7 +94,7 @@ ActiveRecord::Schema[7.1].define(version: 2025_05_31_130351) do
   end
 
 end
-=======
+
 # This file is auto-generated from the current state of the database. Instead
 # of editing this file, please use the migrations feature of Active Record to
 # incrementally modify your database, and then regenerate this schema definition.
@@ -191,4 +191,3 @@ ActiveRecord::Schema[7.1].define(version: 2025_05_31_131520) do
   end
 
 end
->>>>>>> 579eaa9 (feat: added asmaa_khaled column to posts table)
