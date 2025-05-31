@@ -10,9 +10,8 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.1].define(version: 2025_05_31_091255) do
 ActiveRecord::Schema[7.1].define(version: 2025_05_31_093851) do
- 6d3cecc (migration alaaabdullh)
+
   create_table "posts", force: :cascade do |t|
     t.string "islam"
     t.string "omar"
@@ -62,7 +61,6 @@ ActiveRecord::Schema[7.1].define(version: 2025_05_31_093851) do
     t.string "arwa_ipmagic"
     t.string "nada_salah"
     t.string "Nada_Zoksh"
-6d3cecc (migration alaaabdullh)
     t.string "Darsh_Aboteg"
     t.string "Elking"
     t.string "Wilidiah"
@@ -80,7 +78,6 @@ ActiveRecord::Schema[7.1].define(version: 2025_05_31_093851) do
     t.string "Hamdy_Zoksh"
     t.string "Maha_Zoksh"
     t.string "Ahmed_Zoksh"
- 6d3cecc (migration alaaabdullh)
   end
 
   create_table "students", force: :cascade do |t|
