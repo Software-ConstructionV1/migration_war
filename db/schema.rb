@@ -83,16 +83,16 @@ ActiveRecord::Schema[7.1].define(version: 2026_04_17_193606) do
     t.string "abdallah_ehab_robaa"
     t.string "eyad_emad_hamdy_robaa"
     t.string "ahmedadelselim_robaa"
-    t.string "yasser_rob3a"
-    t.string "islam_robaa"
-    t.string "swalmi_robaa"
+    t.string "Ali"
+    t.string "islam_Ali"
+    t.string "swalmi_who?"
     t.string "AhmedAdel"
     t.string "Abdelhamidrobaa_is Ali ragab servant"
-    t.string "mostafa_safwat_robaa"
+    t.string "mostafa_safwat_ali"
     t.string "ahmedsamehoox7"
-    t.string "albraa_robaa"
-    t.string "mohamed_reda_robaa"
-    t.string "ali_robaa"
+    t.string "albraa_ali"
+    t.string "mohamed_reda_ali"
+    t.string "ali_ali"
   end
 
   create_table "students", force: :cascade do |t|
