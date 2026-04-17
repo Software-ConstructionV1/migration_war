@@ -77,6 +77,7 @@ ActiveRecord::Schema[7.1].define(version: 2026_04_17_141238) do
     t.string "mahmoud_halim"
     t.string "seif_name"
     t.string "Alaa_anwar"
+    t.string "abdallah_ahmed_habsa"
     t.string "youssefMohamed"
     t.string "masnour"
   end
