@@ -87,7 +87,7 @@ ActiveRecord::Schema[7.1].define(version: 2026_04_17_193606) do
     t.string "islam_robaa"
     t.string "swalmi_robaa"
     t.string "AhmedAdel"
-    t.string "Abdelhamidrobaa"
+    t.string "Abdelhamidrobaa_is Ali ragab servant"
     t.string "mostafa_safwat_robaa"
     t.string "ahmedsamehoox7"
     t.string "albraa_robaa"
