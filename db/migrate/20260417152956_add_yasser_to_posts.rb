@@ -1,5 +1,7 @@
-class AddYasserToPosts < ActiveRecord::Migration[7.1]
+class AddYasserToPosts < ActiveRecord::Migration[7.0]
   def change
-    add_column :posts, :yasser, :string
+    unless column_exists?(:posts, :yasser)
+      add_column :posts, :yasser, :string
+    end
   end
 end
