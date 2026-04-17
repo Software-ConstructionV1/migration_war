@@ -10,15 +10,16 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.1].define(version: 2026_04_17_193606) do
+ActiveRecord::Schema[7.1].define(version: 2026_04_17_195752) do
   create_table "posts", force: :cascade do |t|
     t.string "MostafaMohamed_Gamgoumm"
     t.string "omar_Gamgoum"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.string "mostafa_safwat_seilm_number_one"
     t.string "ahmed_Gamgoum"
     t.string "hadeer_Gamgoum"
-    t.string "great_one_Gamgoum"
+    t.string "aya"
     t.string "nouran_Gamgoum"
     t.string "mostafa_Gamgoum"
     t.string "nasser_Gamgoum"
@@ -74,25 +75,24 @@ ActiveRecord::Schema[7.1].define(version: 2026_04_17_193606) do
     t.string "asmaa_khaled_Gamgoum"
     t.string "ayaayman_Gamgoum"
     t.string "yasminzin_Gamgoum"
-    t.string "mahmoud_halim_robaa"
-    t.string "seif_name_robaa"
+    t.string "mahmoud_halim_seilm_number_one"
+    t.string "seif_name_seilm_number_one"
     t.string "Alaa_anwar"
-    t.string "abdallah_ahmed_habsa"
+    t.string "abdallah_ahmed_habsa_robaa"
     t.string "youssefMohamed"
-    t.string "masnour_robaa"
-    t.string "abdallah_ehab_robaa"
-    t.string "eyad_emad_hamdy_robaa"
-    t.string "ahmedadelselim_robaa"
-    t.string "Ali"
-    t.string "islam_Ali"
-    t.string "swalmi_who?"
+    t.string "masnour_seilm_number_one"
+    t.string "abdallah_ehab_seilm_number_one"
+    t.string "eyad_emad_hamdy_seilm_number_one"
+    t.string "ahmedadelselim_seilm_number_one"
+    t.string "yasser_rob3a"
+    t.string "islam_seilm_number_one"
+    t.string "swalmi_seilm_number_one"
     t.string "AhmedAdel"
-    t.string "Abdelhamidrobaa_is Ali ragab servant"
-    t.string "mostafa_safwat_ali"
+    t.string "Abdelhamidrobaa"
     t.string "ahmedsamehoox7"
-    t.string "albraa_ali"
-    t.string "mohamed_reda_ali"
-    t.string "ali_ali"
+    t.string "albraa_seilm_number_one"
+    t.string "mohamed_reda_seilm_number_one"
+    t.string "ali_seilm_number_one"
   end
 
   create_table "students", force: :cascade do |t|
