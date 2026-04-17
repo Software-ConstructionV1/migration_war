@@ -1,7 +1,7 @@
 #!/bin/bash
 
 TABLE="posts"
-COL="abdallah_ehab"   # change this to whatever you want to test
+COL="islam"   # change this to whatever you want to test
 NEW_COL="${COL}_robaa"
 
 MIGRATION_NAME="rename_${COL}_to_${NEW_COL}"
