@@ -10,16 +10,15 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.1].define(version: 2026_04_17_221000) do
+ActiveRecord::Schema[7.1].define(version: 2026_04_18_043631) do
   create_table "posts", force: :cascade do |t|
     t.string "MostafaMohamed_Gamgoumm"
     t.string "omar_Gamgoum"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.string "mostafa_safwat_seilm_number_one"
     t.string "ahmed_Gamgoum"
     t.string "hadeer_Gamgoum"
-    t.string "aya"
+    t.string "great_one_Gamgoum"
     t.string "nouran_Gamgoum"
     t.string "mostafa_Gamgoum"
     t.string "nasser_Gamgoum"
@@ -78,7 +77,7 @@ ActiveRecord::Schema[7.1].define(version: 2026_04_17_221000) do
     t.string "mahmoud_halim_seilm_number_one"
     t.string "seif_name_seilm_number_one"
     t.string "Alaa_anwar"
-    t.string "abdallah_ahmed_habsa_robaa"
+    t.string "abdallah_ahmed_habsa"
     t.string "youssefMohamed"
     t.string "masnour_seilm_number_one"
     t.string "abdallah_ehab_seilm_number_one"
@@ -91,6 +90,7 @@ ActiveRecord::Schema[7.1].define(version: 2026_04_17_221000) do
     t.string "Abdelhamidrobaa_selim_number_one"
     t.string "ahmedsamehoox7"
     t.string "albraa_seilm_number_one"
+    t.string "mostafa_safwat_seilm_number_one"
     t.string "mohamed_reda_seilm_number_one"
     t.string "ali_seilm_number_one"
   end
