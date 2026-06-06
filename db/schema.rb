@@ -109,6 +109,7 @@ ActiveRecord::Schema[7.1].define(version: 2026_06_06_160352) do
     t.string "ahmed_wagih"
     t.string "marco"
     t.string "hagersaeednofal"
+    t.string "amir_alsayed"
   end
 
   create_table "students", force: :cascade do |t|
@@ -141,6 +142,9 @@ ActiveRecord::Schema[7.1].define(version: 2026_06_06_160352) do
     t.string "reset_password_token"
     t.datetime "reset_password_sent_at"
     t.datetime "remember_created_at"
+    t.string "Ahmed_fathi"
+    t.string "omarali"
+    t.string "khaled"
     t.index ["email"], name: "index_users_on_email", unique: true
     t.index ["reset_password_token"], name: "index_users_on_reset_password_token", unique: true
   end
