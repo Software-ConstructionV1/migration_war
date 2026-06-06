@@ -74,6 +74,7 @@ ActiveRecord::Schema[7.1].define(version: 2026_06_06_193500) do
     t.string "asmaa_khaled_Gamgoum"
     t.string "ayaayman_Gamgoum"
     t.string "yasminzin_Gamgoum"
+    t.string "MohammedIbrahim"
     t.string "mahmoud_halim_seilm_number_one"
     t.string "seif_name_seilm_number_one"
     t.string "Alaa_anwar"
@@ -103,29 +104,19 @@ ActiveRecord::Schema[7.1].define(version: 2026_06_06_193500) do
     t.string "ramadan"
     t.string "mahmoud_ramadan_abbas"
     t.string "ammar_khaled"
-<<<<<<< HEAD
-    t.string "MohammedIbrahim"
-    t.string "youssef_salah_Gamgoum"
-    t.string "abdallah_adel"
-    t.string "abdo_tolba"
-    t.string "top_eltop"
-=======
     t.string "youssef_salah_Gamgoum"
     t.string "abdallah_adel"
     t.string "abdo_tolba"
     t.string "Mawla"
-    t.string "3askerysaknly"
+    t.string "ahmed_wagih"
     t.string "marco"
     t.string "amir_alsayed"
     t.string "ahmed_kamal"
     t.string "george_sadek_01"
     t.string "gerges_yousef"
-    t.string "amir_mawla_1"
-    t.string "mahallawyEltop1"
-    t.string "mahallawyEltop2"
-    t.string "hagersaeednofal"
-    t.string "abdelrahman_mahallawy"
->>>>>>> 8e02917c107db2a46df12e404b93f1751be60343
+    t.string "mohamed_ahmed"
+    t.string "amir_mawla_2"
+    t.string "baas"
   end
 
   create_table "students", force: :cascade do |t|
@@ -166,8 +157,4 @@ ActiveRecord::Schema[7.1].define(version: 2026_06_06_193500) do
     t.index ["reset_password_token"], name: "index_users_on_reset_password_token", unique: true
   end
 
-<<<<<<< HEAD
 end
-=======
-end
->>>>>>> 8e02917c107db2a46df12e404b93f1751be60343
