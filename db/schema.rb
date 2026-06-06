@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.1].define(version: 2026_06_06_160302) do
+ActiveRecord::Schema[7.1].define(version: 2026_06_06_160350) do
   create_table "posts", force: :cascade do |t|
     t.string "MostafaMohamed_Gamgoumm"
     t.string "omar_Gamgoum"
@@ -23,7 +23,7 @@ ActiveRecord::Schema[7.1].define(version: 2026_06_06_160302) do
     t.string "mostafa_Gamgoum"
     t.string "nasser_Gamgoum"
     t.string "loveYou_Gamgoum"
-    t.string "yousef_Gamgoum"
+    t.string "yousef_Gamgoum_shadow"
     t.string "yossr_Gamgoum"
     t.string "seif__Gamgoum"
     t.string "omar_sayed_Gamgoum"
@@ -103,8 +103,11 @@ ActiveRecord::Schema[7.1].define(version: 2026_06_06_160302) do
     t.string "ramadan"
     t.string "mahmoud_ramadan_abbas"
     t.string "ammar_khaled"
+    t.string "abdallah_adel"
+    t.string "abdo_tolba"
     t.string "Mawla"
     t.string "ahmed_wagih"
+    t.string "marco"
   end
 
   create_table "students", force: :cascade do |t|
@@ -129,6 +132,8 @@ ActiveRecord::Schema[7.1].define(version: 2026_06_06_160302) do
     t.string "mohamed"
     t.string "abdulrahmanIbrahim"
     t.string "sayed"
+    t.string "amr"
+    t.string "ayman_khaled"
     t.string "mohamed_hamdy"
     t.string "encrypted_password", default: "", null: false
     t.string "reset_password_token"
