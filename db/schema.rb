@@ -103,10 +103,16 @@ ActiveRecord::Schema[7.1].define(version: 2026_06_06_161824) do
     t.string "ramadan"
     t.string "mohamed_hany_2"
     t.string "ammar_khaled"
+    t.string "abdallah_adel"
+    t.string "abdo_tolba"
     t.string "Mawla"
     t.string "abdallah_adel"
     t.string "ahmed_wagih"
+<<<<<<< HEAD
     t.string "abdo_tolba"
+=======
+    t.string "marco"
+>>>>>>> 39658d009deb1eebf15dd3be2493467976da58fb
   end
 
   create_table "students", force: :cascade do |t|
@@ -133,6 +139,10 @@ ActiveRecord::Schema[7.1].define(version: 2026_06_06_161824) do
     t.string "sayed"
     t.string "amr"
     t.string "ayman_khaled"
+<<<<<<< HEAD
+=======
+    t.string "mohamed_hamdy"
+>>>>>>> 39658d009deb1eebf15dd3be2493467976da58fb
     t.string "encrypted_password", default: "", null: false
     t.string "reset_password_token"
     t.datetime "reset_password_sent_at"
