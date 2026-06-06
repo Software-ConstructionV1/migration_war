@@ -10,7 +10,11 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
+<<<<<<< HEAD
 ActiveRecord::Schema[7.1].define(version: 2026_06_06_194102) do
+=======
+ActiveRecord::Schema[7.1].define(version: 2026_06_06_194115) do
+>>>>>>> 001a616e80437f0b44f258b6ff3928f629da0f23
   create_table "posts", force: :cascade do |t|
     t.string "ahmedwagih0"
     t.string "ahmedwagih1"
@@ -117,7 +121,12 @@ ActiveRecord::Schema[7.1].define(version: 2026_06_06_194102) do
     t.string "ahmedwagih100"
     t.string "amir_mawla_2"
     t.string "amir_mawla_3"
+<<<<<<< HEAD
     t.string "ahmed_rabie"
+=======
+    t.string "wafaey1"
+    t.string "wafaey"
+>>>>>>> 001a616e80437f0b44f258b6ff3928f629da0f23
   end
 
   create_table "students", force: :cascade do |t|
@@ -152,7 +161,11 @@ ActiveRecord::Schema[7.1].define(version: 2026_06_06_194102) do
     t.datetime "remember_created_at"
     t.string "Ahmed_fathi"
     t.string "azab"
+<<<<<<< HEAD
     t.string "ammar"
+=======
+    t.string "khaldoun"
+>>>>>>> 001a616e80437f0b44f258b6ff3928f629da0f23
     t.string "nesma"
     t.index ["email"], name: "index_users_on_email", unique: true
     t.index ["reset_password_token"], name: "index_users_on_reset_password_token", unique: true
