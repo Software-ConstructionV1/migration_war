@@ -1,24 +1,9 @@
-# README
+<div align="center">
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## ⚔️ Merge Conflict Counter ⚔️
 
-Things you may want to cover:
+### 💥 Conflicts Faced: ` 1 ` 💥
 
-* Ruby version
+> **Increase this counter if you faced a merge conflict while pushing.**
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+</div>
