@@ -1,4 +1,4 @@
-class AddNesmaToUsers < ActiveRecord::Migration[8.1]
+class AddNesmaToUsers < ActiveRecord::Migration[7.1]
   def change
     add_column :users, :nesma, :string
   end

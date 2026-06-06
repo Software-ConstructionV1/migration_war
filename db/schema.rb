@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.1].define(version: 2026_06_06_160354) do
+ActiveRecord::Schema[7.1].define(version: 2026_06_06_190200) do
   create_table "posts", force: :cascade do |t|
     t.string "MostafaMohamed_Gamgoumm"
     t.string "omar_Gamgoum"
@@ -74,6 +74,7 @@ ActiveRecord::Schema[7.1].define(version: 2026_06_06_160354) do
     t.string "asmaa_khaled_Gamgoum"
     t.string "ayaayman_Gamgoum"
     t.string "yasminzin_Gamgoum"
+    t.string "MohammedIbrahim"
     t.string "mahmoud_halim_seilm_number_one"
     t.string "seif_name_seilm_number_one"
     t.string "Alaa_anwar"
@@ -96,26 +97,26 @@ ActiveRecord::Schema[7.1].define(version: 2026_06_06_160354) do
     t.string "mahmoud_nabil_number_one"
     t.string "mahmoud_ismail"
     t.string "mahmoud_ismail_elfiky"
-    t.string "youssef_salah_Gamgoum"
     t.string "shadow_garden"
     t.string "mohamed_hany_wins"
     t.string "mohamed_hany"
     t.string "ayman_shalaby"
-    t.string "mahmoud_ramadan_abbas"
-    t.string "mohamedfathy"
     t.string "ramadan"
+    t.string "mahmoud_ramadan_abbas"
     t.string "ammar_khaled"
+    t.string "youssef_salah_Gamgoum"
     t.string "abdallah_adel"
     t.string "abdo_tolba"
     t.string "Mawla"
     t.string "ahmed_wagih"
     t.string "marco"
-    t.string "hagersaeednofal"
-    t.string "ahmed_kamal"
     t.string "amir_alsayed"
-    t.string "abdelrahman_mahallawy"
-    t.string "mohammed_ibrahim"
+    t.string "ahmed_kamal"
+    t.string "george_sadek_01"
     t.string "gerges_yousef"
+    t.string "mohamed_ahmed"
+    t.string "hagersaeednofal"
+    t.string "abdelrahman_mahallawy"
   end
 
   create_table "students", force: :cascade do |t|
@@ -139,7 +140,6 @@ ActiveRecord::Schema[7.1].define(version: 2026_06_06_160354) do
     t.string "amir_name"
     t.string "mohamed"
     t.string "abdulrahmanIbrahim"
-    t.string "mohamedfathy"
     t.string "sayed"
     t.string "mokhtar"
     t.string "amr"
@@ -152,6 +152,7 @@ ActiveRecord::Schema[7.1].define(version: 2026_06_06_160354) do
     t.string "Ahmed_fathi"
     t.string "omarali"
     t.string "khaled"
+    t.string "nesma"
     t.index ["email"], name: "index_users_on_email", unique: true
     t.index ["reset_password_token"], name: "index_users_on_reset_password_token", unique: true
   end
