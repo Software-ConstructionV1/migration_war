@@ -1,4 +1,4 @@
-﻿# This file is auto-generated from the current state of the database. Instead
+# This file is auto-generated from the current state of the database. Instead
 # of editing this file, please use the migrations feature of Active Record to
 # incrementally modify your database, and then regenerate this schema definition.
 #
@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.1].define(version: 2026_06_06_190200) do
+ActiveRecord::Schema[7.1].define(version: 2026_06_06_193500) do
   create_table "posts", force: :cascade do |t|
     t.string "MostafaMohamed_Gamgoumm"
     t.string "omar_Gamgoum"
@@ -74,7 +74,6 @@ ActiveRecord::Schema[7.1].define(version: 2026_06_06_190200) do
     t.string "asmaa_khaled_Gamgoum"
     t.string "ayaayman_Gamgoum"
     t.string "yasminzin_Gamgoum"
-    t.string "MohammedIbrahim"
     t.string "mahmoud_halim_seilm_number_one"
     t.string "seif_name_seilm_number_one"
     t.string "Alaa_anwar"
@@ -104,6 +103,13 @@ ActiveRecord::Schema[7.1].define(version: 2026_06_06_190200) do
     t.string "ramadan"
     t.string "mahmoud_ramadan_abbas"
     t.string "ammar_khaled"
+<<<<<<< HEAD
+    t.string "MohammedIbrahim"
+    t.string "youssef_salah_Gamgoum"
+    t.string "abdallah_adel"
+    t.string "abdo_tolba"
+    t.string "top_eltop"
+=======
     t.string "youssef_salah_Gamgoum"
     t.string "abdallah_adel"
     t.string "abdo_tolba"
@@ -119,6 +125,7 @@ ActiveRecord::Schema[7.1].define(version: 2026_06_06_190200) do
     t.string "mahallawyEltop2"
     t.string "hagersaeednofal"
     t.string "abdelrahman_mahallawy"
+>>>>>>> 8e02917c107db2a46df12e404b93f1751be60343
   end
 
   create_table "students", force: :cascade do |t|
@@ -153,10 +160,14 @@ ActiveRecord::Schema[7.1].define(version: 2026_06_06_190200) do
     t.datetime "remember_created_at"
     t.string "Ahmed_fathi"
     t.string "omarali"
-    t.string "khaled"
+    t.string "ammar"
     t.string "nesma"
     t.index ["email"], name: "index_users_on_email", unique: true
     t.index ["reset_password_token"], name: "index_users_on_reset_password_token", unique: true
   end
 
+<<<<<<< HEAD
 end
+=======
+end
+>>>>>>> 8e02917c107db2a46df12e404b93f1751be60343
