@@ -23,7 +23,7 @@ ActiveRecord::Schema[7.1].define(version: 2026_06_06_160301) do
     t.string "mostafa_Gamgoum"
     t.string "nasser_Gamgoum"
     t.string "loveYou_Gamgoum"
-    t.string "yousef_Gamgoum_shadow"
+    t.string "yousef_Gamgoum"
     t.string "yossr_Gamgoum"
     t.string "seif__Gamgoum"
     t.string "omar_sayed_Gamgoum"
@@ -98,13 +98,12 @@ ActiveRecord::Schema[7.1].define(version: 2026_06_06_160301) do
     t.string "mahmoud_ismail_elfiky"
     t.string "shadow_garden"
     t.string "mohamed_hany_wins"
-    t.string "ayman_shalaby"
     t.string "mohamed_hany"
+    t.string "ayman_shalaby"
     t.string "ramadan"
     t.string "mahmoud_ramadan_abbas"
-    t.string "abdallah_adel"
-    t.string "abdo_tolba"
     t.string "ammar_khaled"
+    t.string "Mawla"
     t.string "ahmed_wagih"
   end
 
@@ -130,6 +129,7 @@ ActiveRecord::Schema[7.1].define(version: 2026_06_06_160301) do
     t.string "mohamed"
     t.string "abdulrahmanIbrahim"
     t.string "sayed"
+    t.string "mohamed_hamdy"
   end
 
 end
