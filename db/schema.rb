@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.1].define(version: 2026_06_06_194100) do
+ActiveRecord::Schema[7.1].define(version: 2026_06_06_194102) do
   create_table "posts", force: :cascade do |t|
     t.string "ahmedwagih0"
     t.string "ahmedwagih1"
@@ -115,10 +115,8 @@ ActiveRecord::Schema[7.1].define(version: 2026_06_06_194100) do
     t.string "ahmedwagih98"
     t.string "ahmedwagih99"
     t.string "ahmedwagih100"
-    t.string "hagersaeednofal"
-    t.string "amir_mawla_1"
-    t.string "mahalawy"
-    t.string "ahmed_rabie"
+    t.string "amir_mawla_2"
+    t.string "amir_mawla_3"
     t.string "ahmed_rabie"
   end
 
@@ -140,7 +138,7 @@ ActiveRecord::Schema[7.1].define(version: 2026_06_06_194100) do
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.string "zagazigBranchEltop"
-    t.string "mahalawy"
+    t.string "amir_name"
     t.string "mohamed"
     t.string "abdulrahmanIbrahim"
     t.string "sayed"
@@ -153,11 +151,11 @@ ActiveRecord::Schema[7.1].define(version: 2026_06_06_194100) do
     t.datetime "reset_password_sent_at"
     t.datetime "remember_created_at"
     t.string "Ahmed_fathi"
-    t.string "mahalawy"
-    t.string "khaldoun"
+    t.string "azab"
+    t.string "ammar"
     t.string "nesma"
-
     t.index ["email"], name: "index_users_on_email", unique: true
     t.index ["reset_password_token"], name: "index_users_on_reset_password_token", unique: true
   end
+
 end
