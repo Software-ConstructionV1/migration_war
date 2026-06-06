@@ -96,6 +96,7 @@ ActiveRecord::Schema[7.1].define(version: 2026_06_06_160352) do
     t.string "mahmoud_nabil_number_one"
     t.string "mahmoud_ismail"
     t.string "mahmoud_ismail_elfiky"
+    t.string "youssef_salah_Gamgoum"
     t.string "shadow_garden"
     t.string "mohamed_hany_wins"
     t.string "mohamed_hany"
@@ -109,6 +110,7 @@ ActiveRecord::Schema[7.1].define(version: 2026_06_06_160352) do
     t.string "ahmed_wagih"
     t.string "marco"
     t.string "hagersaeednofal"
+    t.string "ahmed_kamal"
     t.string "amir_alsayed"
   end
 
