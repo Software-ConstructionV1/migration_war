@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.1].define(version: 2026_06_06_161824) do
+ActiveRecord::Schema[7.1].define(version: 2026_06_06_160351) do
   create_table "posts", force: :cascade do |t|
     t.string "MostafaMohamed_Gamgoumm"
     t.string "omar_Gamgoum"
@@ -101,14 +101,13 @@ ActiveRecord::Schema[7.1].define(version: 2026_06_06_161824) do
     t.string "mohamed_hany"
     t.string "ayman_shalaby"
     t.string "ramadan"
-    t.string "mohamed_hany_2"
+    t.string "mahmoud_ramadan_abbas"
     t.string "ammar_khaled"
     t.string "abdallah_adel"
     t.string "abdo_tolba"
     t.string "Mawla"
-    t.string "abdallah_adel"
     t.string "ahmed_wagih"
-    t.string "abdo_tolba"
+    t.string "marco"
   end
 
   create_table "students", force: :cascade do |t|
@@ -136,12 +135,14 @@ ActiveRecord::Schema[7.1].define(version: 2026_06_06_161824) do
     t.string "mokhtar"
     t.string "amr"
     t.string "ayman_khaled"
+    t.string "mohamed_hamdy"
     t.string "encrypted_password", default: "", null: false
     t.string "reset_password_token"
     t.datetime "reset_password_sent_at"
     t.datetime "remember_created_at"
+    t.string "Ahmed_fathi"
     t.string "omarali"
-    t.string "mohamed_hamdy"
+    t.string "khaled"
     t.index ["email"], name: "index_users_on_email", unique: true
     t.index ["reset_password_token"], name: "index_users_on_reset_password_token", unique: true
   end
