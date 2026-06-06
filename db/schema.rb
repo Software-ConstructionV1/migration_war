@@ -103,20 +103,35 @@ ActiveRecord::Schema[7.1].define(version: 2026_06_06_193500) do
     t.string "ramadan"
     t.string "mahmoud_ramadan_abbas"
     t.string "ammar_khaled"
+<<<<<<< HEAD
     t.string "MohammedIbrahim"
     t.string "youssef_salah_Gamgoum"
     t.string "abdallah_adel"
     t.string "abdo_tolba"
     t.string "top_eltop"
+=======
+    t.string "youssef_salah_Gamgoum"
+    t.string "abdallah_adel"
+    t.string "abdo_tolba"
+    t.string "Mawla"
+>>>>>>> 8e02917c107db2a46df12e404b93f1751be60343
     t.string "ahmed_wagih"
     t.string "marco"
     t.string "amir_alsayed"
     t.string "ahmed_kamal"
     t.string "george_sadek_01"
     t.string "gerges_yousef"
+<<<<<<< HEAD
     t.string "amir_mawla_3"
     t.string "hagersaeednofal"
     t.string "amir_mawla_1"
+=======
+    t.string "amir_mawla_1"
+    t.string "amir_mawla_2"
+    t.string "amir_mawla_3"
+    t.string "hagersaeednofal"
+    t.string "abdelrahman_mahallawy"
+>>>>>>> 8e02917c107db2a46df12e404b93f1751be60343
   end
 
   create_table "students", force: :cascade do |t|
@@ -157,4 +172,8 @@ ActiveRecord::Schema[7.1].define(version: 2026_06_06_193500) do
     t.index ["reset_password_token"], name: "index_users_on_reset_password_token", unique: true
   end
 
+<<<<<<< HEAD
 end
+=======
+end
+>>>>>>> 8e02917c107db2a46df12e404b93f1751be60343
