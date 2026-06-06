@@ -108,6 +108,7 @@ ActiveRecord::Schema[7.1].define(version: 2026_06_06_160351) do
     t.string "Mawla"
     t.string "ahmed_wagih"
     t.string "marco"
+    t.string "amir_alsayed"
   end
 
   create_table "students", force: :cascade do |t|
