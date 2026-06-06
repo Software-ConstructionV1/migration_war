@@ -109,6 +109,8 @@ ActiveRecord::Schema[7.1].define(version: 2026_06_06_193501) do
     t.string "abdo_tolba"
     t.string "top_eltop"
     t.string "ahmed_wagih"
+    t.string "Mawla"
+    t.string "mohamed_was_here"
     t.string "marco"
     t.string "amir_alsayed"
     t.string "ahmed_kamal"
@@ -118,6 +120,8 @@ ActiveRecord::Schema[7.1].define(version: 2026_06_06_193501) do
     t.string "hagersaeednofal"
     t.string "amir_mawla_1"
     t.string "ahmed_rabie"
+    t.string "mohamed_ahmed"
+    t.string "baas"
   end
 
   create_table "students", force: :cascade do |t|
