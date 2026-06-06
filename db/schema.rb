@@ -119,6 +119,7 @@ ActiveRecord::Schema[7.1].define(version: 2026_06_06_122851) do
     t.string "Gamgoum"
     t.string "amir_name"
     t.string "mohamed"
+    t.string "abdulrahmanIbrahim"
   end
 
 end
