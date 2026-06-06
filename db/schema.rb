@@ -117,7 +117,8 @@ ActiveRecord::Schema[7.1].define(version: 2026_06_06_194100) do
     t.string "ahmedwagih100"
     t.string "hagersaeednofal"
     t.string "amir_mawla_1"
-    t.string "mohamed_is_here_again"
+    t.string "mahalawy"
+    t.string "ahmed_rabie"
     t.string "ahmed_rabie"
   end
 
@@ -138,8 +139,8 @@ ActiveRecord::Schema[7.1].define(version: 2026_06_06_194100) do
     t.string "email"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.string "Gamgoum"
-    t.string "amir_name"
+    t.string "zagazigBranchEltop"
+    t.string "mahalawy"
     t.string "mohamed"
     t.string "abdulrahmanIbrahim"
     t.string "sayed"
@@ -152,11 +153,11 @@ ActiveRecord::Schema[7.1].define(version: 2026_06_06_194100) do
     t.datetime "reset_password_sent_at"
     t.datetime "remember_created_at"
     t.string "Ahmed_fathi"
-    t.string "omarali"
-    t.string "ammar"
+    t.string "mahalawy"
+    t.string "khaldoun"
     t.string "nesma"
+
     t.index ["email"], name: "index_users_on_email", unique: true
     t.index ["reset_password_token"], name: "index_users_on_reset_password_token", unique: true
   end
-
 end
