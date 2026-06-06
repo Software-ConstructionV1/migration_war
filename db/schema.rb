@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.1].define(version: 2026_06_06_193501) do
+ActiveRecord::Schema[7.1].define(version: 2026_06_06_193502) do
   create_table "posts", force: :cascade do |t|
     t.string "MostafaMohamed_Gamgoumm"
     t.string "omar_Gamgoum"
@@ -74,7 +74,6 @@ ActiveRecord::Schema[7.1].define(version: 2026_06_06_193501) do
     t.string "asmaa_khaled_Gamgoum"
     t.string "ayaayman_Gamgoum"
     t.string "yasminzin_Gamgoum"
-    t.string "MohammedIbrahim"
     t.string "mahmoud_halim_seilm_number_one"
     t.string "seif_name_seilm_number_one"
     t.string "Alaa_anwar"
@@ -104,19 +103,20 @@ ActiveRecord::Schema[7.1].define(version: 2026_06_06_193501) do
     t.string "ramadan"
     t.string "mahmoud_ramadan_abbas"
     t.string "ammar_khaled"
-    t.string "youssef_salah_Gamgoum"
     t.string "abdallah_adel"
     t.string "abdo_tolba"
     t.string "Mawla"
     t.string "mohamed_was_here"
     t.string "marco"
     t.string "amir_alsayed"
-    t.string "ahmed_kamal"
+    t.string "gandhi"
+    t.string "MohammedIbrahim"
+    t.string "youssef_salah_Gamgoum"
     t.string "george_sadek_01"
     t.string "gerges_yousef"
-    t.string "mohamed_ahmed"
     t.string "amir_mawla_2"
-    t.string "baas"
+    t.string "hagersaeednofal"
+    t.string "amir_mawla_1"
   end
 
   create_table "students", force: :cascade do |t|
