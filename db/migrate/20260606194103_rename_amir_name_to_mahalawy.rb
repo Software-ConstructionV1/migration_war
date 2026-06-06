@@ -1,5 +1,5 @@
-class RenameAmirToMahalawy < ActiveRecord::Migration[7.1]
+class RenameAmirNameToMahalawy < ActiveRecord::Migration[7.1]
   def change
-   rename_column :users, :amir_name, :mahalawy
+    rename_column :users, :amir_name, :mahalawy
   end
 end
