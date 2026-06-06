@@ -93,7 +93,7 @@ ActiveRecord::Schema[7.1].define(version: 2026_04_20_170639) do
     t.string "mostafa_safwat_seilm_number_one"
     t.string "mohamed_reda_seilm_number_one"
     t.string "ali_seilm_number_one"
-    t.string "mahmoud"
+    t.string "mahmoud_nabil_number_one"
     t.string "mahmoud_ismail"
     t.string "mahmoud_ismail_elfiky"
   end
