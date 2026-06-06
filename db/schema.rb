@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.1].define(version: 2026_06_06_152030) do
+ActiveRecord::Schema[7.1].define(version: 2026_06_06_160355) do
   create_table "posts", force: :cascade do |t|
     t.string "MostafaMohamed_Gamgoumm"
     t.string "omar_Gamgoum"
@@ -19,11 +19,11 @@ ActiveRecord::Schema[7.1].define(version: 2026_06_06_152030) do
     t.string "ahmed_Gamgoum"
     t.string "hadeer_Gamgoum"
     t.string "aya"
-    t.string "nouran_Gamgoum"
+    t.string "nouran_Gamgoum_shadow"
     t.string "mostafa_Gamgoum"
     t.string "nasser_Gamgoum"
     t.string "loveYou_Gamgoum"
-    t.string "yousef_Gamgoum"
+    t.string "yousef_Gamgoum_shadow"
     t.string "yossr_Gamgoum"
     t.string "seif__Gamgoum"
     t.string "omar_sayed_Gamgoum"
@@ -97,6 +97,20 @@ ActiveRecord::Schema[7.1].define(version: 2026_06_06_152030) do
     t.string "mahmoud_ismail"
     t.string "mahmoud_ismail_elfiky"
     t.string "youssef_salah_Gamgoum"
+    t.string "shadow_garden"
+    t.string "mohamed_hany_wins"
+    t.string "mohamed_hany"
+    t.string "ayman_shalaby"
+    t.string "ramadan"
+    t.string "mahmoud_ramadan_abbas"
+    t.string "ammar_khaled"
+    t.string "abdallah_adel"
+    t.string "abdo_tolba"
+    t.string "Mawla"
+    t.string "ahmed_wagih"
+    t.string "marco"
+    t.string "ahmed_kamal"
+    t.string "amir_alsayed"
   end
 
   create_table "students", force: :cascade do |t|
@@ -119,6 +133,21 @@ ActiveRecord::Schema[7.1].define(version: 2026_06_06_152030) do
     t.string "Gamgoum"
     t.string "amir_name"
     t.string "mohamed"
+    t.string "abdulrahmanIbrahim"
+    t.string "sayed"
+    t.string "mokhtar"
+    t.string "amr"
+    t.string "ayman_khaled"
+    t.string "mohamed_hamdy"
+    t.string "encrypted_password", default: "", null: false
+    t.string "reset_password_token"
+    t.datetime "reset_password_sent_at"
+    t.datetime "remember_created_at"
+    t.string "Ahmed_fathi"
+    t.string "omarali"
+    t.string "khaled"
+    t.index ["email"], name: "index_users_on_email", unique: true
+    t.index ["reset_password_token"], name: "index_users_on_reset_password_token", unique: true
   end
 
 end
