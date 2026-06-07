@@ -10,10 +10,10 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.1].define(version: 2026_06_07_005202) do
+ActiveRecord::Schema[7.1].define(version: 2026_06_07_005203) do
   create_table "posts", force: :cascade do |t|
     t.string "ahmedwagih0"
-    t.string "ahmedwagih1"
+    t.string "ahmed_fathi1"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.string "ahmedwagih2"
