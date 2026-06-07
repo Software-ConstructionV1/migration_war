@@ -1,0 +1,5 @@
+class RenameAhmedwagih22ToAhmedFathi22InPosts < ActiveRecord::Migration[7.1]
+  def change
+    rename_column :posts, :ahmedwagih22, :ahmed_fathi22
+  end
+end
