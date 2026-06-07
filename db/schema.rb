@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.1].define(version: 2026_06_07_010017) do
+ActiveRecord::Schema[7.1].define(version: 2026_06_07_010022) do
   create_table "posts", force: :cascade do |t|
     t.string "ahmedwagih0"
     t.string "ahmed_fathi1"
@@ -112,7 +112,7 @@ ActiveRecord::Schema[7.1].define(version: 2026_06_07_010017) do
     t.string "ahmed_fathi95"
     t.string "ahmed_fathi96"
     t.string "ahmed_fathi97"
-    t.string "ahmedwagih98"
+    t.string "ahmed_fathi98"
     t.string "ahmedwagih99"
     t.string "ahmedwagih100_war"
     t.string "ahmed_wagih111"
