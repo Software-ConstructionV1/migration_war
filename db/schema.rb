@@ -171,6 +171,7 @@ ActiveRecord::Schema[7.1].define(version: 2026_06_13_112534) do
     t.string "ahmed_mohammed_mostafa"
     t.string "mohamedabdelshakor"
     t.string "mostafa_abdelmajied"
+    t.string "omar_tarek"
     t.index ["email"], name: "index_users_on_email", unique: true
     t.index ["reset_password_token"], name: "index_users_on_reset_password_token", unique: true
   end
