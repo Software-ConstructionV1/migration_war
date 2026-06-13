@@ -1,5 +1,5 @@
 class RenameAymanToAymanGamgoumInPosts < ActiveRecord::Migration[7.1]
   def change
-    rename_column :posts, :Ayman, :Ayman_Gamgoum
+    rename_column :posts, :Ayman, :Ayman_Gamgoum if column_exists?(:posts, :Ayman)
   end
 end

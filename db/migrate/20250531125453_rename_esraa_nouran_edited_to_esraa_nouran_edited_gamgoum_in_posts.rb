@@ -1,5 +1,5 @@
 class RenameEsraaNouranEditedToEsraaNouranEditedGamgoumInPosts < ActiveRecord::Migration[7.1]
   def change
-    rename_column :posts, :esraa_nouran_edited, :esraa_nouran_edited_Gamgoum
+    rename_column :posts, :esraa_nouran_edited, :esraa_nouran_edited_Gamgoum if column_exists?(:posts, :esraa_nouran_edited)
   end
 end

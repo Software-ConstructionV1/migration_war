@@ -1,5 +1,5 @@
 class RenameAbanoubMedhatToAbanoubMedhatGamgoumInPosts < ActiveRecord::Migration[7.1]
   def change
-    rename_column :posts, :Abanoub_Medhat, :Abanoub_Medhat_Gamgoum
+    rename_column :posts, :Abanoub_Medhat, :Abanoub_Medhat_Gamgoum if column_exists?(:posts, :Abanoub_Medhat)
   end
 end

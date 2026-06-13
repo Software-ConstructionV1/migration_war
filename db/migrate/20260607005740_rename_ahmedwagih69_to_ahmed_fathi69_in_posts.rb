@@ -1,5 +1,5 @@
 class RenameAhmedwagih69ToAhmedFathi69InPosts < ActiveRecord::Migration[7.1]
   def change
-    rename_column :posts, :ahmedwagih69, :ahmed_fathi69
+    rename_column :posts, :ahmedwagih69, :ahmed_fathi69 if column_exists?(:posts, :ahmedwagih69)
   end
 end

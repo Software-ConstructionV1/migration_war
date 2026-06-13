@@ -1,5 +1,5 @@
 class RenameMahmoudramadanabbasToMohamedHany < ActiveRecord::Migration[7.0]
   def change
-    #rename_column :users, :mahmoud_ramadan_abbas, :Mohamed_Hany
+    #rename_column :users, :mahmoud_ramadan_abbas, :Mohamed_Hany_mahmoud_ramadan_abbas
   end
 end

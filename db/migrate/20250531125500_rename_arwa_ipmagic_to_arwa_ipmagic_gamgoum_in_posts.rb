@@ -1,5 +1,5 @@
 class RenameArwaIpmagicToArwaIpmagicGamgoumInPosts < ActiveRecord::Migration[7.1]
   def change
-    rename_column :posts, :arwa_ipmagic, :arwa_ipmagic_Gamgoum
+    rename_column :posts, :arwa_ipmagic, :arwa_ipmagic_Gamgoum if column_exists?(:posts, :arwa_ipmagic)
   end
 end
