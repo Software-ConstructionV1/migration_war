@@ -10,11 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-<<<<<<< HEAD
-ActiveRecord::Schema[7.1].define(version: 2026_06_13_165151) do
-=======
-ActiveRecord::Schema[7.1].define(version: 2026_06_13_190149) do
->>>>>>> e27d7f9002c7ac215e55bbc3996dfd7eb774ea74
+ActiveRecord::Schema[7.1].define(version: 2026_06_13_104500) do
   create_table "posts", force: :cascade do |t|
     t.string "ahmed_fathi0"
     t.string "ahmed_fathi1"
@@ -122,28 +118,10 @@ ActiveRecord::Schema[7.1].define(version: 2026_06_13_190149) do
     t.string "ahmed_wagih111"
     t.string "amir_mawla_3_war"
     t.string "abdo_war"
-    t.string "islam_khaled_war2"
-    t.string "youssef2_renamed_by_karim_muhammad"
+    t.string "ahmed2"
+    t.string "youssef2"
     t.string "rana_hany"
     t.string "AmiraElsa3id"
-    t.string "abdelhamid"
-    t.string "ahmed_faheem"
-    t.string "islam_khaled_war"
-    t.string "deiaa_renamed_by_karim_muhammad"
-    t.string "islam_khaled"
-    t.string "maryamabdelraheem"
-    t.string "mohamedHalawa"
-    t.string "noorelmobashar_nickname_renamed_by_karim_muhammad"
-    t.string "mohamed_renamed_by_karim_muhammad"
-    t.string "karim_muhammad_renamed_by_waleed"
-    t.string "keroraed_renamed_by_waleed"
-    t.string "kerolosnashat_renamed_by_waleed"
-    t.string "mohamedwaleed_renamed_by_karim_muhammad"
-    t.string "kareem_sultan"
-    t.string "rehab_was_here"
-    t.string "abdulrahman"
-    t.string "amr_abokhaled"
-    t.string "ebram"
   end
 
   create_table "students", force: :cascade do |t|
@@ -168,7 +146,7 @@ ActiveRecord::Schema[7.1].define(version: 2026_06_13_190149) do
     t.string "Mohamed_Hany_mohamed"
     t.string "Mohamed_Hany_abdulrahmanIbrahim"
     t.string "Mohamed_Hany_sayed"
-    t.string "khaledWin"
+    t.string "Mohamed_Hany_mokhtar"
     t.string "Mohamed_Hany_amr"
     t.string "Mohamed_Hany_ayman_khaled"
     t.string "Mohamed_Hany_mohamed_hamdy"
@@ -183,6 +161,8 @@ ActiveRecord::Schema[7.1].define(version: 2026_06_13_190149) do
     t.string "sohyla"
     t.string "mahmoud"
     t.string "khaled_elmorse"
+    t.string "shaza_hamdy"
+    t.string "mawadaelmeshad"
     t.index ["email"], name: "index_users_on_email", unique: true
     t.index ["reset_password_token"], name: "index_users_on_reset_password_token", unique: true
   end
