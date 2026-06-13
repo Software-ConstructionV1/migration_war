@@ -128,6 +128,8 @@ ActiveRecord::Schema[7.1].define(version: 2026_06_13_150940) do
     t.string "islam_khaled"
     t.string "mohamedHalawa"
     t.string "noorelmobashar_nickname"
+    t.string "kerolosnashat"
+
     t.string "mohamed"
     t.string "karim_muhammad"
     t.string "keroraed"
