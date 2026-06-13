@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.1].define(version: 2026_06_13_161001) do
+ActiveRecord::Schema[7.1].define(version: 2026_06_13_161002) do
   create_table "posts", force: :cascade do |t|
     t.string "ahmed_fathi0"
     t.string "ahmed_fathi1"
@@ -125,6 +125,7 @@ ActiveRecord::Schema[7.1].define(version: 2026_06_13_161001) do
     t.string "abdelhamid"
     t.string "ahmed_faheem"
     t.string "islam_khaled_war"
+    t.string "deiaa"
     t.string "islam_khaled"
     t.string "mohamedHalawa"
     t.string "noorelmobashar_nickname"
@@ -181,11 +182,11 @@ ActiveRecord::Schema[7.1].define(version: 2026_06_13_161001) do
     t.string "omar_tarek"
     t.string "karim_kadry_war"
     t.string "mohamed_reda_mohamed"
-    t.string "ibrahim"
     t.string "amr_mohamed_shoukry"
     t.string "ahmed_wael"
     t.string "mohamedHalawa"
     t.string "kero_ayman34"
+    t.string "ibrahim"
     t.index ["email"], name: "index_users_on_email", unique: true
     t.index ["reset_password_token"], name: "index_users_on_reset_password_token", unique: true
   end
