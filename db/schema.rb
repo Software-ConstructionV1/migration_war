@@ -170,7 +170,7 @@ ActiveRecord::Schema[7.1].define(version: 2026_06_13_161006) do
     t.string "Mohamed_Hany_azab"
     t.string "Mohamed_Hany_khaldoun"
     t.string "Mohamed_Hany_nesma"
-    t.string "sohyla"
+    t.string "shaza"
     t.string "mahmoud"
     t.string "khaled_elmorse"
     t.string "shaza_hamdy"
