@@ -1,0 +1,10 @@
+services:
+  web:
+    build: .
+    environment:
+      - RAILS_ENV=development
+    ports:
+      - "3000:3000"
+    volumes:
+      - .:/rails
+    command: bundle exec rails server -b 0.0.0.0
