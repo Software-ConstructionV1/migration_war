@@ -10,11 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-<<<<<<< HEAD
-ActiveRecord::Schema[7.1].define(version: 2026_06_13_120000) do
-=======
-ActiveRecord::Schema[7.1].define(version: 2026_06_13_113000) do
->>>>>>> 1bef527 (Add karim_kadry column to users)
+ActiveRecord::Schema[7.1].define(version: 2026_06_13_114656) do
   create_table "posts", force: :cascade do |t|
     t.string "ahmed_fathi0"
     t.string "ahmed_fathi1"
@@ -129,10 +125,7 @@ ActiveRecord::Schema[7.1].define(version: 2026_06_13_113000) do
     t.string "abdelhamid"
     t.string "ahmed_faheem"
     t.string "islam_khaled_war"
-    t.string "opencode"
-    t.string "mohamed_reda"
     t.string "islam_khaled"
-    t.string "mohamed_reda_mohamed"
   end
 
   create_table "students", force: :cascade do |t|
@@ -173,16 +166,14 @@ ActiveRecord::Schema[7.1].define(version: 2026_06_13_113000) do
     t.string "mahmoud"
     t.string "khaled_elmorse"
     t.string "shaza_hamdy"
-    t.string "mohamedabdelshakor"
     t.string "mawadaelmeshad"
     t.string "ahmed_ibrahim_elemam"
     t.string "ahmed_mohammed_mostafa"
+    t.string "mohamedabdelshakor"
     t.string "mostafa_abdelmajied"
     t.string "omar_tarek"
-
-    t.string "mohamed_reda_mohamed"
     t.string "karim_kadry"
-
+    t.string "mohamed_reda_mohamed"
     t.index ["email"], name: "index_users_on_email", unique: true
     t.index ["reset_password_token"], name: "index_users_on_reset_password_token", unique: true
   end
