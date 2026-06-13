@@ -10,7 +10,11 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
+<<<<<<< HEAD
 ActiveRecord::Schema[7.1].define(version: 2026_06_13_165151) do
+=======
+ActiveRecord::Schema[7.1].define(version: 2026_06_13_190149) do
+>>>>>>> e27d7f9002c7ac215e55bbc3996dfd7eb774ea74
   create_table "posts", force: :cascade do |t|
     t.string "ahmed_fathi0"
     t.string "ahmed_fathi1"
@@ -118,9 +122,27 @@ ActiveRecord::Schema[7.1].define(version: 2026_06_13_165151) do
     t.string "ahmed_wagih111"
     t.string "amir_mawla_3_war"
     t.string "abdo_war"
-    t.string "ahmed2"
-    t.string "youssef2"
+    t.string "islam_khaled_war2"
+    t.string "youssef2_renamed_by_karim_muhammad"
     t.string "rana_hany"
+    t.string "AmiraElsa3id"
+    t.string "abdelhamid"
+    t.string "ahmed_faheem"
+    t.string "islam_khaled_war"
+    t.string "deiaa_renamed_by_karim_muhammad"
+    t.string "islam_khaled"
+    t.string "maryamabdelraheem"
+    t.string "mohamedHalawa"
+    t.string "noorelmobashar_nickname_renamed_by_karim_muhammad"
+    t.string "mohamed_renamed_by_karim_muhammad"
+    t.string "karim_muhammad_renamed_by_waleed"
+    t.string "keroraed_renamed_by_waleed"
+    t.string "kerolosnashat_renamed_by_waleed"
+    t.string "mohamedwaleed_renamed_by_karim_muhammad"
+    t.string "kareem_sultan"
+    t.string "rehab_was_here"
+    t.string "abdulrahman"
+    t.string "amr_abokhaled"
   end
 
   create_table "students", force: :cascade do |t|
@@ -140,6 +162,7 @@ ActiveRecord::Schema[7.1].define(version: 2026_06_13_165151) do
     t.string "email"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+<<<<<<< HEAD
     t.string "Mohamed_Hany_zagazigBranchEltop"
     t.string "Mohamed_Hany_mahalawy"
     t.string "Mohamed_Hany_mohamed"
@@ -149,10 +172,22 @@ ActiveRecord::Schema[7.1].define(version: 2026_06_13_165151) do
     t.string "Mohamed_Hany_amr"
     t.string "Mohamed_Hany_ayman_khaled"
     t.string "Mohamed_Hany_mohamed_hamdy"
+=======
+    t.string "ibrahim_eita_send_regards_Mohamed_Hany_zagazigBranchEltop"
+    t.string "ibrahim_eita_send_regards_Mohamed_Hany_mahalawy"
+    t.string "ibrahim_eita_send_regards_Mohamed_Hany_mohamed"
+    t.string "ibrahim_eita_send_regards_Mohamed_Hany_abdulrahmanIbrahim"
+    t.string "ibrahim_eita_send_regards_Mohamed_Hany_sayed"
+    t.string "ibrahim_eita_send_regards_Mohamed_Hany_mokhtar"
+    t.string "ibrahim_eita_send_regards_Mohamed_Hany_amr"
+    t.string "ibrahim_eita_send_regards_Mohamed_Hany_ayman_khaled"
+    t.string "ibrahim_eita_send_regards_Mohamed_Hany_mohamed_hamdy"
+>>>>>>> e27d7f9002c7ac215e55bbc3996dfd7eb774ea74
     t.string "encrypted_password", default: "", null: false
     t.string "reset_password_token"
     t.datetime "reset_password_sent_at"
     t.datetime "remember_created_at"
+<<<<<<< HEAD
     t.string "Mohamed_Hany_Ahmed_fathi"
     t.string "Mohamed_Hany_azab"
     t.string "Mohamed_Hany_khaldoun"
@@ -160,6 +195,35 @@ ActiveRecord::Schema[7.1].define(version: 2026_06_13_165151) do
     t.string "sohyla"
     t.string "mahmoud"
     t.string "khaled_elmorse"
+=======
+    t.string "ibrahim_eita_send_regards_Mohamed_Hany_Ahmed_fathi"
+    t.string "ibrahim_eita_send_regards_Mohamed_Hany_azab"
+    t.string "ibrahim_eita_send_regards_Mohamed_Hany_khaldoun"
+    t.string "ibrahim_eita_send_regards_Mohamed_Hany_nesma"
+    t.string "ibrahim_eita_send_regards_shaza_hamdy_mohamed"
+    t.string "mohamed_tarek_mahmoud_back"
+    t.string "ibrahim_eita_send_regards_khaled_elmorse"
+    t.string "mohamed_tarek_shaza_back"
+    t.string "ibrahim_eita_send_regards_mawadaelmeshad"
+    t.string "ahmed_ibrahim_elemam"
+    t.string "mohamed_tarek"
+    t.string "ahmed_mohammed_mostafa"
+    t.string "mohamedabdelshakor"
+    t.string "mostafa_abdelmajied"
+    t.string "maryam"
+    t.string "shaza"
+    t.string "karim_kadry_war"
+    t.string "mohamed_reda_mohamed"
+    t.string "amr_mohamed_shoukry"
+    t.string "shaza_elshimy"
+    t.string "mohamedHalawa"
+    t.string "maryamabdelraheem"
+    t.string "kero_ayman34"
+    t.string "shaza_hamdy_elshimy"
+    t.string "mohamed_abdo"
+    t.string "nancy"
+    t.string "mostafa_mohamed_salah"
+>>>>>>> e27d7f9002c7ac215e55bbc3996dfd7eb774ea74
     t.index ["email"], name: "index_users_on_email", unique: true
     t.index ["reset_password_token"], name: "index_users_on_reset_password_token", unique: true
   end
