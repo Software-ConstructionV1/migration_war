@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.1].define(version: 2026_06_13_121030) do
+ActiveRecord::Schema[7.1].define(version: 2026_06_13_145206) do
   create_table "posts", force: :cascade do |t|
     t.string "ahmed_fathi0"
     t.string "ahmed_fathi1"
@@ -126,8 +126,15 @@ ActiveRecord::Schema[7.1].define(version: 2026_06_13_121030) do
     t.string "ahmed_faheem"
     t.string "islam_khaled_war"
     t.string "islam_khaled"
+
     t.string "ahmed_wael"
+
     t.string "noorelmobashar_nickname"
+
+
+    t.string "mohamed"
+
+
   end
 
   create_table "students", force: :cascade do |t|
@@ -174,8 +181,8 @@ ActiveRecord::Schema[7.1].define(version: 2026_06_13_121030) do
     t.string "mohamedabdelshakor"
     t.string "mostafa_abdelmajied"
     t.string "omar_tarek"
-    t.string "karim_kadry"
     t.string "mohamed_reda_mohamed"
+    t.string "karim_kadry"
     t.string "amr_mohamed_shoukry"
     t.string "ahmed_wael"
     t.index ["email"], name: "index_users_on_email", unique: true
