@@ -18,7 +18,7 @@ ActiveRecord::Schema[7.1].define(version: 2026_06_13_094344) do
     t.datetime "updated_at", null: false
     t.string "renamed_by_noorelmobashar2"
     t.string "renamed_by_noorelmobashar3"
-    t.string "ahmed_fathi4"
+    t.string "renamed_by_noorelmobashar4"
     t.string "ahmed_fathi5"
     t.string "ahmed_fathi6"
     t.string "ahmed_fathi7"
