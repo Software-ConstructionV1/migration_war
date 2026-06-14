@@ -108,7 +108,7 @@ ActiveRecord::Schema[7.1].define(version: 2026_06_13_094344) do
     t.string "renamed_by_noorelmobashar91"
     t.string "renamed_by_noorelmobashar92"
     t.string "renamed_by_noorelmobashar93"
-    t.string "ahmed_fathi94"
+    t.string "renamed_by_noorelmobashar94"
     t.string "ahmed_fathi95"
     t.string "ahmed_fathi96"
     t.string "ahmed_fathi97"
