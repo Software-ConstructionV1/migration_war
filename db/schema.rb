@@ -12,7 +12,7 @@
 
 ActiveRecord::Schema[7.1].define(version: 2026_06_13_094344) do
   create_table "posts", force: :cascade do |t|
-    t.string "ahmed_fathi0"
+    t.string "renamed_by_noorelmobashar0"
     t.string "ahmed_fathi1"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
