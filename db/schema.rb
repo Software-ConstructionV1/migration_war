@@ -222,6 +222,7 @@ ActiveRecord::Schema[7.1].define(version: 2026_06_20_210005) do
     t.string "ibrahim_eita_send_regards_nancy"
     t.string "ibrahim_eita_send_regards_mostafa_mohamed_salah"
     t.string "HashimAbdulaziz"
+    t.string "nagy"
     t.index ["email"], name: "index_users_on_email", unique: true
     t.index ["reset_password_token"], name: "index_users_on_reset_password_token", unique: true
   end
