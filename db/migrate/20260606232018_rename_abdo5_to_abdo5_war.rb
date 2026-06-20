@@ -3,8 +3,6 @@ class RenameAbdo5ToAbdo5War < ActiveRecord::Migration[7.1]
     Post.reset_column_information if defined?(Post)
     if column_exists?(:posts, :abdo5)
       rename_column :posts, :abdo5, :abdo5_war if column_exists?(:posts, :abdo5)
-    rescue ActiveRecord::ActiveRecordError => e
-    puts "Skipping: #{e.message}"
-  end
+    end
   end
 end
