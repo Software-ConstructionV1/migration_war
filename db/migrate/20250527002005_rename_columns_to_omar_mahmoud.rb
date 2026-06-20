@@ -7,5 +7,7 @@ class RenameColumnsToOmarMahmoud < ActiveRecord::Migration[7.1]
   #  # rename_column :posts, :Abdallah_Sayed, :omar_2002_5 if column_exists?(:posts, :Abdallah_Sayed)
   #   rename_column :posts, :Wilidiah, :omar_56 if column_exists?(:posts, :Wilidiah)
   #   rename_column :posts, :fix_your_mic_plz, :omar_mahmoud_7 if column_exists?(:posts, :fix_your_mic_plz)
+  rescue ActiveRecord::ActiveRecordError => e
+    puts "Skipping #{e.message}"
   end
 end

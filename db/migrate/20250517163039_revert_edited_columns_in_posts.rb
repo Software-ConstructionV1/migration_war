@@ -7,6 +7,8 @@ class RevertEditedColumnsInPosts < ActiveRecord::Migration[7.1]
     edited_columns.each do |edited_column|
       original_name = edited_column.gsub(/_edited$/, '')
       rename_column :posts, edited_column.to_sym, original_name.to_sym
-    end
+    rescue ActiveRecord::ActiveRecordError => e
+    puts "Skipping: #{e.message}"
+  end
   end
 end

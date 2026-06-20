@@ -1,5 +1,7 @@
 class RenameAbanoubMedhatToAbanoubMedhatGamgoumInPosts < ActiveRecord::Migration[7.1]
   def change
     rename_column :posts, :Abanoub_Medhat, :Abanoub_Medhat_Gamgoum if column_exists?(:posts, :Abanoub_Medhat)
+  rescue ActiveRecord::ActiveRecordError => e
+    puts "Skipping #{e.message}"
   end
 end

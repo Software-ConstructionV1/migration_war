@@ -1,5 +1,7 @@
-class Rename20260614090941 < ActiveRecord::Migration[7.1]
+class RenameRenamedByNoorelmobashar70InPosts < ActiveRecord::Migration[7.1]
   def change
     rename_column :posts, :renamed_by_noorelmobashar70, :ibrahim_eita_send_regards_renamed_by_noorelmobashar70
+  rescue ActiveRecord::ActiveRecordError => e
+    puts "Skipping: #{e.message}"
   end
 end

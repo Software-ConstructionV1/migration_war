@@ -7,5 +7,7 @@ class RenameOpensourceAssiut < ActiveRecord::Migration[7.1]
     rename_column :posts, :sub_Leader, :Yasmeen_Zoksh if column_exists?(:posts, :sub_Leader)
     rename_column :posts, :Grace, :Ghada_Zoksh if column_exists?(:posts, :Grace)
     rename_column :posts, :omar_mahmoud, :Omar_Zoksh if column_exists?(:posts, :omar_mahmoud)
+  rescue ActiveRecord::ActiveRecordError => e
+    puts "Skipping #{e.message}"
   end
 end

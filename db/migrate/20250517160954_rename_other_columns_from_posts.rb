@@ -13,6 +13,8 @@ class RenameOtherColumnsFromPosts < ActiveRecord::Migration[7.1]
     columns_to_edit.each do |column|
       new_name = "#{column}_edited"
       rename_column :posts, column.to_sym, new_name.to_sym
-      end
+      rescue ActiveRecord::ActiveRecordError => e
+    puts "Skipping: #{e.message}"
+  end
   end
 end

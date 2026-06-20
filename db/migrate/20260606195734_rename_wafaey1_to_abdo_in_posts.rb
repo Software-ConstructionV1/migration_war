@@ -1,5 +1,7 @@
 class RenameWafaey1ToAbdoInPosts < ActiveRecord::Migration[7.1]
   def change
     rename_column :posts, :wafaey1, :abdo if column_exists?(:posts, :wafaey1)
+  rescue ActiveRecord::ActiveRecordError => e
+    puts "Skipping: #{e.message}"
   end
 end

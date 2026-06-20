@@ -1,5 +1,7 @@
 class RenameAhmedwagih23ToAhmedFathi23InPosts < ActiveRecord::Migration[7.1]
   def change
     rename_column :posts, :ahmedwagih23, :ahmed_fathi23 if column_exists?(:posts, :ahmedwagih23)
+  rescue ActiveRecord::ActiveRecordError => e
+    puts "Skipping: #{e.message}"
   end
 end

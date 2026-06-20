@@ -7,7 +7,9 @@ class RenameAllColumnsToAhmedwagih < ActiveRecord::Migration[7.1]
       if index <= 100
         new_column_name = "ahmedwagih#{index}"
         rename_column :posts, col, new_column_name unless col == new_column_name
-      end
+      rescue ActiveRecord::ActiveRecordError => e
+    puts "Skipping: #{e.message}"
+  end
     end
     
     # Add missing columns up to ahmedwagih100

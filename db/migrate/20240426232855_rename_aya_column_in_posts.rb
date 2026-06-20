@@ -2,6 +2,8 @@ class RenameAyaColumnInPosts < ActiveRecord::Migration[7.1]
   def change
     if column_exists?(:posts, :reem)
       rename_column :posts, :reem, :great_one if column_exists?(:posts, :reem)
-    end
+    rescue ActiveRecord::ActiveRecordError => e
+    puts "Skipping: #{e.message}"
+  end
   end
 end
