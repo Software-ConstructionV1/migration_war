@@ -162,6 +162,7 @@ ActiveRecord::Schema[7.1].define(version: 2026_06_20_210023) do
     t.string "dontDoThisAgainRana"
     t.string "karim_ibrahim_renamed_by_rana"
     t.string "ebrahimmostafa133"
+    t.string "mohamed_sameh"
   end
 
   create_table "students", force: :cascade do |t|
