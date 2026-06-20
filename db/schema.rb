@@ -157,6 +157,7 @@ ActiveRecord::Schema[7.1].define(version: 2026_06_20_180702) do
     t.string "smashed_by_hashing"
     t.string "killed_by_hashim"
     t.string "rana_mohamed"
+    t.string "ahmed_ehab_farouk"
   end
 
   create_table "students", force: :cascade do |t|
