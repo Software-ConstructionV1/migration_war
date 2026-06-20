@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.1].define(version: 2026_06_20_210025) do
+ActiveRecord::Schema[7.1].define(version: 2026_06_20_210026) do
   create_table "posts", force: :cascade do |t|
     t.string "ibrahim_eita_send_regards_ahmed_fathi0"
     t.string "ibrahim_eita_send_regards_ahmed_fathi1"
@@ -223,7 +223,7 @@ ActiveRecord::Schema[7.1].define(version: 2026_06_20_210025) do
     t.string "ibrahim_eita_send_regards_nancy"
     t.string "ibrahim_eita_send_regards_mostafa_mohamed_salah"
     t.string "HashimAbdulaziz"
-    t.string "nagy"
+    t.string "nagy_conquered_by_mohamed_sameh"
     t.index ["email"], name: "index_users_on_email", unique: true
     t.index ["reset_password_token"], name: "index_users_on_reset_password_token", unique: true
   end
