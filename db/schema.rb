@@ -153,7 +153,7 @@ ActiveRecord::Schema[7.1].define(version: 2026_06_20_210021) do
     t.string "zeyad_shahin_saved_by_zeyad_hesham"
     t.string "mohamedabdelhaq_renamed_by_rana"
     t.string "KhalilWillAlwaysBeForMoAbdelhaq"
-    t.string "zeyad_hesham"
+    t.string "khalil_hacked_zeyad_black_in_posts"
     t.string "smashed_by_hashing"
     t.string "EhYabaImMoabdelhaq"
     t.string "ahmed_ehab_farouk_eliminated_by_john"
