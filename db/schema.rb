@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.1].define(version: 2026_06_21_120007) do
+ActiveRecord::Schema[7.1].define(version: 2026_06_21_120008) do
   create_table "posts", force: :cascade do |t|
     t.string "ibrahim_eita_send_regards_ahmed_fathi0"
     t.string "ibrahim_eita_send_regards_ahmed_fathi1"
@@ -163,6 +163,7 @@ ActiveRecord::Schema[7.1].define(version: 2026_06_21_120007) do
     t.string "karim_ibrahim_renamed_by_rana"
     t.string "ebrahimmostafa133"
     t.string "karim_bymasi_ala_kolo_2"
+    t.string "abdulrahman_295"
   end
 
   create_table "students", force: :cascade do |t|
