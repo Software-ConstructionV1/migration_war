@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.1].define(version: 2026_06_21_034150) do
+ActiveRecord::Schema[7.1].define(version: 2026_06_21_034526) do
   create_table "posts", force: :cascade do |t|
     t.string "ibrahim_eita_send_regards_ahmed_fathi0"
     t.string "ibrahim_eita_send_regards_ahmed_fathi1"
@@ -146,7 +146,7 @@ ActiveRecord::Schema[7.1].define(version: 2026_06_21_034150) do
     t.string "mo_ali"
     t.string "Torl_Ali"
     t.string "nourhan"
-    t.string "moabdelhaqySendshisregardstohasminAndAndrew_conquered_by_mohamed_sameh"
+    t.string "MO_conqueredSameh_Hashim_Andrewtate"
     t.string "JAWWWWWWWWWWWWWWWWWWWWWWWWWWWN"
     t.string "EhYabaByKhlil_isForAbdelhaqONLYYY"
     t.string "hamdonlostAgainstAbdelhaq"
