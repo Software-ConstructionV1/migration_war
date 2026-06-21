@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.1].define(version: 2026_06_20_210029) do
+ActiveRecord::Schema[7.1].define(version: 2026_06_21_033401) do
   create_table "posts", force: :cascade do |t|
     t.string "ibrahim_eita_send_regards_ahmed_fathi0"
     t.string "ibrahim_eita_send_regards_ahmed_fathi1"
@@ -148,11 +148,11 @@ ActiveRecord::Schema[7.1].define(version: 2026_06_20_210029) do
     t.string "nourhan"
     t.string "moabdelhaqySendshisregardstohasminAndAndrew_conquered_by_mohamed_sameh"
     t.string "JAWWWWWWWWWWWWWWWWWWWWWWWWWWWN"
-    t.string "EhYabaByKhalil"
+    t.string "EhYabaByKhlil_isForAbdelhaqONLYYY"
     t.string "hamdonlostAgainstAbdelhaq"
     t.string "zeyad_shahin_saved_by_zeyad_hesham_conquered_by_mohamed_sameh"
     t.string "mohamedabdelhaq_renamed_by_rana"
-    t.string "KhalilWillAlwaysBeForMoAbdelhaq_conquered_by_mohamed_sameh"
+    t.string "MUHANADMEDHAT_NUMBERONE"
     t.string "khalil_hacked_zeyad_black_in_posts"
     t.string "smashed_by_hashing"
     t.string "EhYabaImMoabdelhaq"
@@ -162,7 +162,7 @@ ActiveRecord::Schema[7.1].define(version: 2026_06_20_210029) do
     t.string "dontDoThisAgainRana"
     t.string "karim_ibrahim_renamed_by_rana"
     t.string "ebrahimmostafa133"
-    t.string "mohamed_sameh"
+    t.string "killed_by_MUHANADMEDHAT"
   end
 
   create_table "students", force: :cascade do |t|
@@ -223,7 +223,7 @@ ActiveRecord::Schema[7.1].define(version: 2026_06_20_210029) do
     t.string "ibrahim_eita_send_regards_nancy"
     t.string "ibrahim_eita_send_regards_mostafa_mohamed_salah"
     t.string "HashimAbdulaziz"
-    t.string "nagy_conquered_by_mohamed_sameh"
+    t.string "both_conquered_by_MUHANADMEDHAT"
     t.index ["email"], name: "index_users_on_email", unique: true
     t.index ["reset_password_token"], name: "index_users_on_reset_password_token", unique: true
   end
